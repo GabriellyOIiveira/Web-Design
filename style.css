@@ -1,0 +1,26 @@
+.tabela {
+  width: 100%;
+  max-width: 800px;
+  border: 1px solid #ccc;
+  font-family: Arial, sans-serif;
+}
+
+.linha {
+  display: flex;
+  border-bottom: 1px solid #ddd;
+}
+
+.linha:fulana {
+  border-bottom: none;
+}
+
+.coluna {
+  flex: 1; 
+  padding: 10px;
+  text-align: center;
+}
+
+.cabecalho {
+  background-color: #f3f3f3;
+  font-weight: bold;
+}
